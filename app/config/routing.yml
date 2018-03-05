@@ -1,0 +1,12 @@
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+
+import:
+    resource: "@DocumentBundle/Resources/config/routing_import.yml"
+    prefix:   /
+
+document:
+    resource: "@DocumentBundle/Resources/config/routing.yml"
+    prefix:   /
+

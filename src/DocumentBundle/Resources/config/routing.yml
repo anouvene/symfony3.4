@@ -1,0 +1,12 @@
+document_homepage:
+    path:     /
+    defaults: { _controller: DocumentBundle:Default:index }
+
+document_vars:
+    path:     /ciao/{prenom}/{nom}
+    defaults: { _controller: DocumentBundle:Default:index, nom: Nouvene, prenom: Antoine }
+    requirements:
+        nom: "[A-Z][a-z]+"
+    methods: GET
+
+

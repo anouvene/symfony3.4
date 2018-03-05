@@ -1,0 +1,3 @@
+document_hello:
+    path:     /hello/{prenom}/{nom}
+    defaults: { _controller: DocumentBundle:Hello:hello, prenom: "Antoine", nom: "Nouvene" }
